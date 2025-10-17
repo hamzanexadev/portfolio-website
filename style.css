@@ -4,6 +4,7 @@
 body {
   background-color: #1f242d;
   color: white;
+  background-image: linear-gradient(to right, rgba(0, 253, 253, 0.884),#000b0a );
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
   scroll-behavior: smooth;
 }
@@ -36,7 +37,7 @@ ul {
   left: 50vw;
 }
 a:hover {
-  color: aqua;
+  color: black;
   transition: 0.3s;
   text-decoration: underline;
 }
@@ -92,10 +93,10 @@ a {
 .fa-facebook {
   border: 2px solid aqua;
   width: fit-content;
+  background-color: #000000;
   padding: 10px;
   border-radius: 150pc;
   margin: 6px;
-  
 }
 .fa-github:hover,
 .fa-linkedin:hover,
@@ -137,12 +138,13 @@ img:hover {
   bottom: 59vh;
   left: 10vw;
   border: 2px solid aqua;
+  background-color: #000000;
   padding: 10px 20px;
   border-radius: 150pc;
 }
 .but6:hover,
 .but7:hover {
-  background-color: aqua;
+  background-color: black;
   color: white;
   transition: 0.3s;
   transform: scale(1.4);
@@ -305,7 +307,7 @@ button:hover {
   top: 1vh;
   background-color: #000000;
 }
-.social1{
+.social1 {
   position: relative;
   left: 32.4vw;
   top: 10vh;
